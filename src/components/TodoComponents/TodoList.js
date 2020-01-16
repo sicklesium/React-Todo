@@ -9,7 +9,7 @@ import "./Todo.css";
 
 
 function TodoList(props) {
-    return <ul>{props.todo4.map(todo2 =>
+    return <ul className="todo-list">{props.todo4.map(todo2 =>
         <Todo1
             todo3={todo2}
             key={todo2.id}
